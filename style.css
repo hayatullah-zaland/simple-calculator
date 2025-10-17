@@ -1,0 +1,57 @@
+body{
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.main{
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+    border-radius: 20px;
+}
+.main .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+}
+select{
+    width: 80px;
+    height: 35px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.num1{
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+.num2{
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-size: 20px;
+    box-shadow: 0 0 10px black;
+    color: white;
+}
